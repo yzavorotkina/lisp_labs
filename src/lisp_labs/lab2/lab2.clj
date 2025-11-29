@@ -28,7 +28,7 @@
         h 0.001
         F (make-integral-lazy f h)
         start (System/nanoTime)]
-    (doseq [x [1 2 3 4 5 -2 -3 2.5 3.7]]
+    (doseq [x [1 2 3 4 5 6 5]]
       (let [t0 (System/nanoTime)
             v  (F x)
             t1 (System/nanoTime)]

@@ -28,7 +28,7 @@
         F  (make-integral f h)
         start-total (System/nanoTime)]
 
-    (doseq [x [1 2 3 4 5]]
+    (doseq [x [1 2 3 4 5 6 7]]
       (let [start (System/nanoTime)
             result (F x)
             end (System/nanoTime)
